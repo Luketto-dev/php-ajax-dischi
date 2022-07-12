@@ -1,5 +1,5 @@
 <?php
-require_once "../db.php";
+require_once __DIR__ . "/../db.php";
 
 
 
@@ -27,7 +27,7 @@ require_once "../db.php";
                     <div class="col flex-shrink-0">
                         <div class="disc text-center">
                             <div class="disc-poster">
-                                <img class="img-fluid" src="<?php echo $disco["poster"] ?>" alt="infoDisc.title">
+                                <img class="img-fluid" src="<?php echo $disco["poster"] ?>" alt="">
                             </div>
                             <div class="disc-title">
                                 <h4 class="text-white pt-2"><?php echo $disco["title"]?></h4>

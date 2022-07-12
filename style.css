@@ -3,6 +3,11 @@ body{
     overflow: hidden;
 }
 
+#app{
+    height: 100vh;
+    overflow: hidden;
+}
+
 main{
     background-color: #1E2D3B;
     height: 100%;
