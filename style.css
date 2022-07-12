@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    background-color: #1E2D3B;
+    height: 100%;
+    overflow: auto
+}
+
+header{
+    background-color:#2E3A46;
+}
+
+
+.header-logo img{
+    width: 30px;
+    color:#1ED65F
+}
+
+.disc{
+    background-color: #2E3A46;
+    height: 100%;
+    padding: 1.2rem;
+    width: 90%;
+}
